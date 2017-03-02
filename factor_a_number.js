@@ -6,4 +6,4 @@ function factors(num){
   }
 }
 
-factors(20);
+factors(232792560);

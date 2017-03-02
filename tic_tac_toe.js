@@ -40,6 +40,12 @@ ticTacToe([
 
 ticTacToe([
   ['O', 'X', 'O'],
+  ['O', null, 'O'],
+  [null, 'X', 'O']
+  ])
+
+ticTacToe([
+  ['O', 'X', 'O'],
   ['O', 'O', null],
   [null, 'X', 'X']
   ])
