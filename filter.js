@@ -1,7 +1,7 @@
 function filter(array, fun){
   new_array = [];
   for(var i =0; i<array.length; i++){
-    if(fun(array[i]) === true){
+    if(fun(array[i])){
       new_array.push(array[i]);
     }
   }

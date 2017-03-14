@@ -57,3 +57,16 @@ function compareInnerSum(a, b){
 }
 array.sort(compareInnerSum);
 console.log(array);
+
+var product = [
+  { name: 'Basketball', price: 12.00 },
+  { name: 'Tennis Racquet', price: 66.00 },
+  { name: 'Tennis Balls', price: 9.00 },
+  { name: 'Tennis Balls', price: 9.00 }
+];
+
+function sortPrice(a, b){
+  return a.price - b.price;
+}
+product.sort(sortPrice);
+console.log(product);
